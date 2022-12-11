@@ -1,0 +1,4 @@
+
+data class Score(private val score : Int){
+    var currentscore=score
+}
