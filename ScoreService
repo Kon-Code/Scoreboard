@@ -8,9 +8,5 @@ class ScoreSerivces(private val score:Score) {
     fun setscore(n: Int){
         score.currentscore+=n
     }
-   fun getcurrentscore():Int{
-
-            return score.currentscore
-   }
 
 }
