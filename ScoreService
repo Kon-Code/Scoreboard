@@ -1,0 +1,16 @@
+class ScoreSerivces(private val score:Score) {
+
+
+    fun getscore():Score{
+        return  Score( 0)
+    }
+
+    fun setscore(n: Int){
+        score.currentscore+=n
+    }
+   fun getcurrentscore():Int{
+
+            return score.currentscore
+   }
+
+}
